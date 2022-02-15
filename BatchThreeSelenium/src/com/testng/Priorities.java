@@ -10,7 +10,7 @@ public class Priorities {
 	
 	@Test(priority =4,groups = {"Regression"})
 	public void firstMethod() {
-		System.out.println("This is first method");
+		System.out.println("This is first method for git");
 	}
 
 	@Test(priority =2,groups = {"smoke","Regression"})
