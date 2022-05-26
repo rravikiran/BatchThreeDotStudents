@@ -33,6 +33,7 @@ public class Alerts {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.alertIsPresent());
+		System.out.println("Alert");
 		
 		Wait<WebDriver> fwait = new FluentWait<WebDriver>(driver)
 				  .withTimeout(Duration.ofSeconds(30))
